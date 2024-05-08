@@ -1,4 +1,8 @@
 <?php
+/**
+ * Son test unitarios para verificar y validar el funcionamiento de ciertas funciones para testear que una función se comporte de la manera que 
+ * se espara.
+ */
 
 namespace Test\traits;
 

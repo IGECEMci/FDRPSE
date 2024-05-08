@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * El trait es el responsable de parsear la información que recibe dependiendo de la lógica de negocio, que en este caso es la lógica que sigue los cuestionarios y la norma.
+ */
 namespace App\shared\traits;
 
 trait ExcelTrait

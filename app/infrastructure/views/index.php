@@ -1,3 +1,6 @@
+<!--
+  Las vistas son las responsables de ser generadas de lados del servidor, como lo es la vista principal, los reportes pdf o la vista 404 not found. 
+ -->
 <!doctype html>
  <html lang="es">
 

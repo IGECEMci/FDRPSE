@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Las rutas son encargadas de procesar una ruta y de implementar un método de un controlador.
+ */
+
 namespace App\infrastructure\routes\area;
 
 use App\application\area\AreaUseCase;

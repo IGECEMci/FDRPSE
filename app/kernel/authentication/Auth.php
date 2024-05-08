@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * La autencticación se genera a través de JWT con una duración de 2 horas por sesión de usuario hasta que sea generado, se utiliza un trait para poder 
+ * utilizado en diferentes modulos.
+ */
+
+
 namespace App\kernel\authentication;
 
 use App\domain\user\User;
@@ -23,7 +29,7 @@ trait Auth
 		$key  = getenv('JWT_SECRET_KEY');
 		$user = static::parseUserData($payload);
 		$data = [
-			//'exp' => strtotime('now') + 7200,
+			'exp' => strtotime('now') + 7200,
 			'user' => $user,
 		];
 		$token = JWT::encode($data, $key, 'HS256');

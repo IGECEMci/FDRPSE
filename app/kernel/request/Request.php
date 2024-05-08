@@ -1,4 +1,8 @@
 <?php
+/**
+ * La clase request es una clase la cual no se puede instanciar y hereda métodos de de la clase Response para poder acceder a las peticiones del 
+ * cliente. 
+ */
 
 namespace App\kernel\request;
 

@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * Los casos de uso son los encargado de manejar la lógica de negocio e implementan la firma de las funciones de la capa de dominio, es decir, 
+ * en vez de implementar la funciones con su lógica que interactuan con la base de datos implementa la firma de las funciones de ese modo se genera
+ * una abstracción porque aunque interactuan directamente, la lógica de negocio no depende del dominio.
+ * 
+*/
+
 namespace App\application\authentication;
 
 use App\domain\user\UserRepository;
@@ -15,7 +22,6 @@ final class AuthenticationUseCase
 		if (!$user) {
 			return new Exception('El usuario o contraseña no es valido', 400);
 		}
-		return $user; 
 		return md5($password) === $user->contrasenia ? $user : new Exception('El usuario o contraseña no es valido', 400);
 	}
 

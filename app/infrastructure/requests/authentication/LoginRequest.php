@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * Las clases request sirven para validar las peticiones que reciben datos del cliente, es una clase que extiende de la clase Request para poder acceder a los métodos de la clase.
+ */
 namespace App\infrastructure\requests\authentication;
 
 use App\kernel\request\HttpRulesRequest;

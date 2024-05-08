@@ -1,5 +1,9 @@
 <?php
-
+/**
+ * 	La clase es responsable de conectar la base de datos, implementando eloquent para ahorrar tiempo en la configuración y consulta a la base de datos,
+ * 	además de implementar un patron para solamente generar una instancia de la conneción independientemente de la veces que se instancie la clase.
+ * 
+ */
 namespace App\infrastructure\database;
 
 use Exception;

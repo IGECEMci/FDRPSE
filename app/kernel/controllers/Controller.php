@@ -1,5 +1,14 @@
 <?php
 
+
+/**
+ * La clase controller es una calse de la cual no se pueden generar instancias pero sirver para enviar, recibir información del cliente
+ * Además de poder usar las funciones del trait de autenticación, retornar vistas desde el servidor o generar reportes de Excel.
+ * 
+ * Además extiende dee la clase request para poder acceder a los headers, al body, a los query params o para validar las request.
+ * 
+ */
+
 namespace App\kernel\controllers;
 
 use App\kernel\authentication\Auth;

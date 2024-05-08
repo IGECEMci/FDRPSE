@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * El Trait es el responsable para crear archivos de excel para descargar un reporte por área o usuario
+ */
 namespace App\shared\traits;
 
 use App\infrastructure\adapters\ExcelAdapter;

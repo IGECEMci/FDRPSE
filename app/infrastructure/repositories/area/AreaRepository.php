@@ -1,4 +1,8 @@
 <?php
+/**
+ * Los repositorios son la implementación de las consultas de la base de datos, en este caso son creados para encapsular la lógica de las consultas por si se requiere o se necesita cambiar
+ * el ORM o simplemente generar consultar de forma nativa con PDO, por lo que implementa una interface para asegurar el funcionamiento de la clase.
+ */
 
 namespace App\infrastructure\repositories\area;
 

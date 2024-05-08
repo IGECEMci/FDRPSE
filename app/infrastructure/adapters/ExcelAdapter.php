@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Los adapters son clases que sirven para crear una abstracción de la lógica de una libreria para que su uso en otras clases no dependa del funcionamiento de la libreria, si en caso de que la librería se actualize o se opte por cambiar, debería de ser modificado el funcionamiento de la clase de forma interna para no alterar la lógica de negocio o en clases que dependan de ella.
+ */
+
 namespace App\infrastructure\adapters;
 
 use Shuchkin\SimpleXLSXGen;

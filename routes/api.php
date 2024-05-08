@@ -1,4 +1,7 @@
 <?php
+/**
+ * Es la entrada de la aplicación y es el responsable de procesar las rutas
+ */
 
 use App\infrastructure\middlewares\CheckAuthMiddleware;
 use App\kernel\response\Response;

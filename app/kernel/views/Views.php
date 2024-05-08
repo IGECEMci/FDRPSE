@@ -1,6 +1,11 @@
 <?php
 
-
+/**
+ *
+ * El trair Views es encapsula la logica para poder retornar vistas de lado del servidor ademas de generar vistas en forma de buffer para poder
+ * generar reportes pdfs o cuando sea necesario (procesa e interpreta el archivo con las funciones o variables del archivo y lo retorna en un string)
+ * 
+ */
 namespace App\kernel\views;
 
 trait Views

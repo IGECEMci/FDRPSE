@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * La clase Response es la responsable de retornar información al cliente en formato Json o de descarga.
+ */
 namespace App\kernel\response;
 
 abstract class Response implements HttpResponse

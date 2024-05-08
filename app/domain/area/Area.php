@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * Los modelos son la interpretación de como luce la base de datos y que interactua directamente con ella, en este caso al implementar eloquent
+ * extiende de la clase Model para poder acceder a diferentes métodos.
+ * 
+ * Los modelos no deberían tener lógica dentro de ellos, unicamente métodos de relación con otros modelos.
+ */
 
 namespace App\domain\area;
 
